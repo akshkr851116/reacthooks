@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import Counteruseeff from './Counteruseeff'
+import ShoppingApp2 from './ShoppingApp2'
+// import Counter from './Counter'
+// import Message from './Message'
+// import Formdemo from './Formdemo'
+// import Randomnum from './Randomnum'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Message/> */}
+      {/* <Counter/> */}
+    {/* <Formdemo/> */}
+    {/* <Randomnum/> */}
+    <ShoppingApp2/>
+    {/* <Counteruseeff/> */}  
+    </>
+  )
 }
 
-export default App;
